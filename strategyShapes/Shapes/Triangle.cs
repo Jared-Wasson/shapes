@@ -35,6 +35,11 @@ namespace strategyShapes.Shapes
 		{
 			return ParentShapes.TRIANGLES;
 		}
+
+		public ShapeTypes getName()
+		{
+			return this.name;
+		}
 	}
 }
 

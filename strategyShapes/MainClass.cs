@@ -1,7 +1,7 @@
 ﻿using System;
 namespace strategyShapes
 {
-	public class EmptyClass
+	public class MainClass
 	{
 		static void Main(string[] args)
 		{
@@ -11,6 +11,7 @@ namespace strategyShapes
 			if (args.Length != 2)
 			{
 				Console.WriteLine("command line arugments are not correct!");
+				return;
 			}
 
 			fileToProcess = args[0];

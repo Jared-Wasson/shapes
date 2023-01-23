@@ -30,15 +30,23 @@ namespace strategyShapes.Parsers
 		public void execute()
 		{
 			XmlDocument xmlDocument = new XmlDocument();
-			xmlDocument.Load(this.filename);
-			foreach (XmlNode node in xmlDocument.DocumentElement)
-			{
-				processNode(node);
-				
-            }
+            try
+            {
+                xmlDocument.Load(this.filename);
+                foreach (XmlNode node in xmlDocument.DocumentElement)
+                {
+                    processNode(node);
 
-            printResults();
-            writeToCSV(this.pathToSaveTo);
+                }
+
+                printResults();
+                writeToCSV(this.pathToSaveTo);
+
+            } catch (Exception e)
+            {
+                Console.WriteLine("Could not find xml file from the path provided");
+                return;
+            }
         }
 
 		public void processNode(XmlNode node)
@@ -364,7 +372,7 @@ namespace strategyShapes.Parsers
 
         public void writeToCSV(string wantedLocation)
         {
-            var w = new StreamWriter("test-results.csv");
+            var w = new StreamWriter(wantedLocation + "results.csv");
             //header
             var line = string.Format("{0},{1}", "Shape", "Area");
             w.WriteLine(line);
