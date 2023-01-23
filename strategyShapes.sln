@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategyShapes", "strategyShapes\strategyShapes.csproj", "{9B231B3F-322D-41B6-9FFE-6765C4D0C1D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5DF38352-46F3-4EB5-81D2-E5911518D144}"
+	ProjectSection(SolutionItems) = preProject
+		strategyShapes.sln = strategyShapes.sln
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B231B3F-322D-41B6-9FFE-6765C4D0C1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B231B3F-322D-41B6-9FFE-6765C4D0C1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B231B3F-322D-41B6-9FFE-6765C4D0C1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B231B3F-322D-41B6-9FFE-6765C4D0C1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBAFB0AF-E467-4A73-A03D-59D3B1453ADE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+﻿{
+  "data": [
+    {
+      "square": {
+        "length": 5,
+        "width": 5,
+        "name": "square"
+      }
+    },
+    {
+      "circle": {
+        "semiMajorAxis": 5,
+        "semiMinorAxis": 5,
+        "name": "circle"
+      }
+    },
+    {
+      "equallateral": {
+        "side1": 5,
+        "side2": 5,
+        "side3": 5,
+        "name": "equallateral"
+      }
+    },
+    {
+      "isosceles": {
+        "side1": 5,
+        "side2": 5,
+        "side3": 5,
+        "name": "isosceles"
+      }
+    },
+    {
+      "nc_ellipse": {
+        "semiMajorAxis": 5,
+        "semiMinorAxis": 5,
+        "name": "ellipse"
+      }
+    },
+    {
+      "rectangle": {
+        "length": 5,
+        "width": 5,
+        "name": "rectangle"
+      }
+    },
+    {
+      "scalene": {
+        "side1": 5,
+        "side2": 5,
+        "side3": 5,
+        "name": "scalene"
+      }
+    }
+  ]
+}
+

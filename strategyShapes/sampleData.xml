@@ -1,0 +1,49 @@
+﻿<data>
+
+    <circle>
+        <semiMajorAxis>5</semiMajorAxis>
+        <semiMinorAxis>5</semiMinorAxis>
+        <name>circle</name>
+    </circle>
+
+    <square>
+        <length>5</length>
+        <width>5</width>
+        <name>square</name>
+    </square>
+
+    <rectangle>
+        <length>5</length>
+        <width>5</width>
+        <name>rectangle</name>
+    </rectangle>
+
+    <nc_ellipse>
+        <semiMajorAxis>5</semiMajorAxis>
+        <semiMinorAxis>5</semiMinorAxis>
+        <name>ellipse</name>
+    </nc_ellipse>
+
+    <equallaterial>
+        <side1>5</side1>
+        <side2>5</side2>
+        <side3>5</side3>
+        <name>equallateral</name>
+    </equallaterial>
+
+    <isosecles>
+        <side1>5</side1>
+        <side2>5</side2>
+        <side3>5</side3>
+        <name>isosecles</name>
+    </isosecles>
+
+    <scalene>
+        <side1>5</side1>
+        <side2>5</side2>
+        <side3>5</side3>
+        <name>scalene</name>
+    </scalene>
+
+</data>
+
