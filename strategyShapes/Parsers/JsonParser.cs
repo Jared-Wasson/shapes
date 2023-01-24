@@ -53,10 +53,6 @@ namespace strategyShapes.Parsers
             writeToCSV(pathToSaveTo);
 
 
-            //todo do xml and then then input commandline stuff, figure out how to do relative paths better. 
-
-
-
         }
 
         public ShapeTypes getShapeType(dynamic item)
